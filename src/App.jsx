@@ -98,10 +98,10 @@ function App() {
 
   return (
     <>
-      <main className='text-center m-1 rounded-1 d-flex flex-column justify-content-center align-items-center'>
+      <main className='text-center m-1 py-3 px-2 rounded-1 d-flex flex-column justify-content-center align-items-center'>
         {gameWon && <ReactConfetti/>}
         <h1 className="title fw-bold">Tenzies</h1>
-        <p className="instructions mx-5 fs-5 fw-bold">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
+        <p className="instructions mx-2 fs-5 fw-bold">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
         <div className="timer d-flex align-items-center fs-3 my-5">
           <p className='m-0'>Timer </p>
           <span className="min">{Math.floor(allseconds / 60)}</span> :
