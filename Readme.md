@@ -13,7 +13,7 @@ It is intended for learning purposes only.
 ---
 
 ## 📌 Features
-Generate 10 random dice on each roll
+- Generate 10 random dice on each roll
 - Ability to hold dice values to keep them from rolling
 - Detect when all dice match to declare a win
 - Timer that tracks the game duration
